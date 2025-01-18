@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApplicationSettings>
+    <URL>https://the-internet.herokuapp.com/dynamic_controls</URL>
+    <BrowserType>Chrome</BrowserType>
+    <PageLoadTime>30</PageLoadTime>
+    <DockerHost>false</DockerHost>
+    <DockerPort></DockerPort>
+    <EnableSoftassertion>False</EnableSoftassertion>
+    <EnableEachStepScreenshot>False</EnableEachStepScreenshot>
+</ApplicationSettings>

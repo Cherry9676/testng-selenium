@@ -1,0 +1,17 @@
+{
+  "Home Page": {
+    "loginPagepagetitle": "login"
+  },
+  "New Feature": {
+    "Checkbox1CheckBoxXPATH": "//input[@type='checkbox']"
+  },
+  "The Internet": {
+    "Add_RemoveButtonXPATH": "//button[contains(.,'Remove')]",
+    "textboxTextBoxXPATH": "//input[@type='text']",
+    "Enable_disableButtonXPATH": "//button[contains(.,'Enable')]",
+    "waitTextBoxID": "null",
+    "DefaultpagepageTitle": "",
+    "messageLabeltext": "",
+    "pagePageXPATH": ""
+  }
+}
