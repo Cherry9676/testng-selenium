@@ -110,29 +110,4 @@ Examples:
 
 #Total No. of Test Cases : 4
 
-@Test_Scenario_5
-@uid1230277027
-@set21
-@test005
-Scenario Outline: Examining the Interaction with Dynamically Loading Web Controls
-Given I have access to application
-When I checked Checkbox1 in the internet
-Then verify checked Checkbox1 in the internet
-When I unchecked Checkbox1 in the internet
-Then verify unchecked Checkbox1 in the internet
-And verify text Add_Remove in the internet
-And verify displayed Add_Remove in the internet
-And verify disabled textbox in the internet
-And verify if visible Enable_disable in the internet
-When I clicked Enable_disable in the internet
-And I wait in seconds wait in the internet as '<wait>'
-Then verify enabled textbox in the internet
-And verify url page in the internet as 'page1'
-And '<page>' is displayed with '<content>'
-
-Examples:
-|SlNo.|wait|page|content|
-|1|wait1|The Internet|NA|
-
-#Total No. of Test Cases : 5
 
