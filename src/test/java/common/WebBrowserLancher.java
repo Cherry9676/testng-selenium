@@ -27,6 +27,7 @@ public class WebBrowserLancher {
 		return driver;
 	}
 
+	@SuppressWarnings("deprecation")
 	public static void launchApplication() {
 
 		// Read values from XML (assumed)

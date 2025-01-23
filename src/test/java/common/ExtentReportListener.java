@@ -61,8 +61,8 @@ public class ExtentReportListener {
 		}
 
 		// Create report entry with the feature name
-		test = extent.createTest("Feature: " + featureName + " - " + scenario.getName());
-		test.info("Feature: " + featureName);
+		test = extent.createTest(scenario.getName());
+		test.info(featureName);
 	}
 
 	@AfterStep
